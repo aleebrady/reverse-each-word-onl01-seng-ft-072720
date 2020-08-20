@@ -12,4 +12,5 @@ def reverse_each_word(phrase)
   phrase.split.collect do |b|
     b.reverse
   end
+  .join(" ")
 end
